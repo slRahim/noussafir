@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+     <servlet>
+         <servlet-name>Acceuil</servlet-name>
+         <servlet-class>com.projet.servlet.Acceuil</servlet-class>
+     </servlet>
+    <servlet-mapping>
+        <servlet-name>Acceuil</servlet-name>
+        <url-pattern>/Acceuil</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NouveauClient</servlet-name>
+        <servlet-class>com.projet.servlet.NouveauClient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NouveauClient</servlet-name>
+        <url-pattern>/NouveauClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RechercheTrajetVisiteur</servlet-name>
+        <servlet-class>com.projet.servlet.RechercheTrajetVisiteur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RechercheTrajetVisiteur</servlet-name>
+        <url-pattern>/Recherche</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+       <servlet-name>MessageAdmin</servlet-name>
+       <servlet-class>com.projet.servlet.MessageAdmin</servlet-class>
+   </servlet>
+    <servlet-mapping>
+        <servlet-name>MessageAdmin</servlet-name>
+        <url-pattern>/MessageAdmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NouveauTrajet</servlet-name>
+        <servlet-class>com.projet.servlet.NouveauTrajet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NouveauTrajet</servlet-name>
+        <url-pattern>/Trajet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>modeConducteur</servlet-name>
+        <servlet-class>com.projet.servlet.modeConducteur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>modeConducteur</servlet-name>
+        <url-pattern>/Conducteur</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModeVoyageur</servlet-name>
+        <servlet-class>com.projet.servlet.ModeVoyageur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModeVoyageur</servlet-name>
+        <url-pattern>/Voyageur</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>consulterProfile</servlet-name>
+        <servlet-class>com.projet.servlet.consulterProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>consulterProfile</servlet-name>
+        <url-pattern>/ConsulterProfile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RechercheTrajet</servlet-name>
+        <servlet-class>com.projet.servlet.RechercheTrajet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RechercheTrajet</servlet-name>
+        <url-pattern>/RechercheTrajet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifieTrajet</servlet-name>
+        <servlet-class>com.projet.servlet.ModifieTrajet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifieTrajet</servlet-name>
+        <url-pattern>/ModifieTrajet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupprimerTrajet</servlet-name>
+        <servlet-class>com.projet.servlet.SupprimerTrajet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerTrajet</servlet-name>
+        <url-pattern>/SupprimerTrajet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HistoriqueTrajet</servlet-name>
+        <servlet-class>com.projet.servlet.HistoriqueTrajet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HistoriqueTrajet</servlet-name>
+        <url-pattern>/HistoriqueTrajet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ValiderReservation</servlet-name>
+        <servlet-class>com.projet.servlet.ValiderReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValiderReservation</servlet-name>
+        <url-pattern>/ValiderReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupprimerReservation</servlet-name>
+        <servlet-class>com.projet.servlet.SupprimerReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerReservation</servlet-name>
+        <url-pattern>/SupprimerReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NouvelleReservation</servlet-name>
+        <servlet-class>com.projet.servlet.NouvelleReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NouvelleReservation</servlet-name>
+        <url-pattern>/NouvelleReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AnnulerReservation</servlet-name>
+        <servlet-class>com.projet.servlet.AnnulerReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnnulerReservation</servlet-name>
+        <url-pattern>/AnnulerReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HistoriqueReservation</servlet-name>
+        <servlet-class>com.projet.servlet.HistoriqueReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HistoriqueReservation</servlet-name>
+        <url-pattern>/HistoriqueReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ModifieProfile</servlet-name>
+        <servlet-class>com.projet.servlet.ModifieProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifieProfile</servlet-name>
+        <url-pattern>/ModifieProfile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupprimerProfile</servlet-name>
+        <servlet-class>com.projet.servlet.SupprimerProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerProfile</servlet-name>
+        <url-pattern>/SupprimerProfile</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>BloquerMembre</servlet-name>
+        <servlet-class>com.projet.servlet.BloquerMembre</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BloquerMembre</servlet-name>
+        <url-pattern>/BloquerMembre</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupprimerMembre</servlet-name>
+        <servlet-class>com.projet.servlet.SupprimerMembre</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerMembre</servlet-name>
+        <url-pattern>/SupprimerMembre</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupprimerMessage</servlet-name>
+        <servlet-class>com.projet.servlet.SupprimerMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerMessage</servlet-name>
+        <url-pattern>/SupprimerMessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EvaluationVoyageur</servlet-name>
+        <servlet-class>com.projet.servlet.EvaluationVoyageur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EvaluationVoyageur</servlet-name>
+        <url-pattern>/EvaluationVoyageur</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EvaluationConducteur</servlet-name>
+        <servlet-class>com.projet.servlet.EvaluationConducteur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EvaluationConducteur</servlet-name>
+        <url-pattern>/EvaluationConducteur</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterTrajet</servlet-name>
+        <servlet-class>com.projet.servlet.ConsulterTrajet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConsulterTrajet</servlet-name>
+        <url-pattern>/ConsulterTrajet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SuivreReservationAdmin</servlet-name>
+        <servlet-class>com.projet.servlet.SuivreReservationAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuivreReservationAdmin</servlet-name>
+        <url-pattern>/Reservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImprimerReservation</servlet-name>
+        <servlet-class>com.projet.servlet.ImprimerReservation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImprimerReservation</servlet-name>
+        <url-pattern>/ImprimerReservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Debloquer</servlet-name>
+        <servlet-class>com.projet.servlet.Debloquer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Debloquer</servlet-name>
+        <url-pattern>/Debloquer</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Payer</servlet-name>
+        <servlet-class>com.projet.servlet.Payer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Payer</servlet-name>
+        <url-pattern>/Payer</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModeAdmin</servlet-name>
+        <servlet-class>com.projet.servlet.Modeadmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModeAdmin</servlet-name>
+        <url-pattern>/ModeAdmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SupprimerTrajetAdmin</servlet-name>
+        <servlet-class>com.projet.servlet.SupprimerTrajetAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerTrajetAdmin</servlet-name>
+        <url-pattern>/SupprimerTrajetAdmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>repondreMessage</servlet-name>
+        <servlet-class>com.projet.servlet.repondreMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>repondreMessage</servlet-name>
+        <url-pattern>/Repondre</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>motDePasseOublier</servlet-name>
+        <servlet-class>com.projet.servlet.motDePasseOublier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>motDePasseOublier</servlet-name>
+        <url-pattern>/Oublier</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifiePhoto</servlet-name>
+        <servlet-class>com.projet.servlet.ModifiePhoto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifiePhoto</servlet-name>
+        <url-pattern>/ModifiePhoto</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.projet.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginChate</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ChatServlet</servlet-name>
+        <servlet-class>com.projet.servlet.ChatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChatServlet</servlet-name>
+        <url-pattern>/chat</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Statistique</servlet-name>
+        <servlet-class>com.projet.servlet.Statistique</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Statistique</servlet-name>
+        <url-pattern>/Statistique</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+    <jsp-config>
+    <jsp-property-group>
+        <url-pattern>*.jsp</url-pattern>
+        <page-encoding>UTF-8</page-encoding>
+        <include-prelude>/taglibs.jsp</include-prelude>
+    </jsp-property-group>
+    </jsp-config>
+</web-app>

@@ -1,0 +1,73 @@
+.parallax {
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mypading{
+    padding-left: 60px ;
+}
+#home{
+    background-image: url(../img/acceuil.png) ;
+    height: 500px; 
+}
+#recherche{
+    padding: 50px ;
+
+}
+#map {
+     height: 550px;
+}
+.mytxt{
+    text-align: center ;
+}
+.mypadinginscrit{
+    padding: 25px ;
+}
+#statistique{
+    background-color: #f1f2f6;
+    padding: 50px ;
+    padding-bottom: 50px;
+}
+#covoiturage{
+    padding: 50px ;
+}
+#avantage{
+    background-image: url(../img/77.png) ;
+    height: 900px; 
+}
+#footer{
+    padding: 50px ;
+    background-color:#222f3e; 
+}
+.mytxtblanc{
+    color: white ;
+}
+#form-inscrit{
+    padding: 50px ;
+    background-color: ghostwhite;
+}
+.jumbotron{
+    opacity: 0.8 ;
+}
+#recherche_visiteur{
+    padding: 50px;
+    background-image: url("../img/background4.png");
+    height: 1250px;
+}
+#resultat{
+    padding: 50px;
+}
+#head{
+    background-image: url(../img/background2.png) ;
+    height: 600px; 
+    background-repeat: no-repeat ;
+}
+#corp{
+    background-color: #ecf0f1 ;
+    padding: 70px;
+}

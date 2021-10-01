@@ -1,0 +1,65 @@
+.parallax {
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#statistique{
+    padding: 60px;
+   
+}
+.mytxt{
+    text-align: center ;
+}
+#message{
+    padding: 100px ;
+    background-color: #f5f6fa ;
+}
+#nav-tab{
+    padding-left: 10%;
+}
+#membre{
+    padding: 100px ;
+    background-color: #f5f6fa;
+}
+#recherche_membre{
+    padding: 50px;
+    background-image: url(../img/background5.png) ;
+    height: 500px;
+
+}
+#recherche_trajet{
+    padding:50px;
+    background-image: url(../img/background5.png) ;
+    height: 500px ;
+}
+#trajet{
+    padding: 100px ;
+    background-color: #f5f6fa;
+}
+#demande_reservation{
+    padding: 60px ;
+}
+#mes_trajet{
+    padding: 60px;
+}
+#recherche_voyageur{
+    background-image: url(../img/background6.png);
+    height:1250px ;
+}
+#resultat_recherche{
+    padding: 50px ;
+    background-color: #f1f2f6 ;
+}
+#mes_reservation,#h_trajet,#h_reservation,#evalue_conducteur,#profile,#evalue_voyageur,#payer{
+    padding: 60px ;
+}
+#footer_admin{
+    color: white ;
+    padding: 50px ;
+    background-color:#222f3e;
+}
